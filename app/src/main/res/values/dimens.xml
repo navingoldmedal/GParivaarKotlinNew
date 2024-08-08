@@ -1,0 +1,70 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+
+    <!--common-->
+    <dimen name="header_common_height">50dp</dimen>
+    <dimen name="btn_common_height">40dp</dimen>
+    <dimen name="lazy_progress_height">40dp</dimen>
+    <dimen name="static_image_height">180dp</dimen>
+    <dimen name="dropdown_height">50dp</dimen>
+    <dimen name="icon_height">25dp</dimen>
+    <dimen name="icon_width">25dp</dimen>
+
+    <!--overall margin-->
+    <dimen name="dimen_2dp">2dp</dimen>
+    <dimen name="dimen_4dp">4dp</dimen>
+    <dimen name="dimen_8dp">8dp</dimen>
+    <dimen name="dimen_12dp">12dp</dimen>
+    <dimen name="dimen_16dp">16dp</dimen>
+    <dimen name="dimen_20dp">20dp</dimen>
+
+
+    <!--font size common-->
+    <dimen name="header_text">16sp</dimen>
+    <dimen name="btn_text">16sp</dimen>
+    <dimen name="large_detail_text">15sp</dimen>
+    <dimen name="edt_field_height">200dp</dimen>
+    <dimen name="section_header_text">16sp</dimen>
+
+    <!--Division wise-->
+    <dimen name="txt_division_wise_popup">12sp</dimen>
+
+    <!--login-->
+    <dimen name="login_text_normal">14sp</dimen>
+    <dimen name="login_text_links">13.5sp</dimen>
+    <dimen name="login_edt_height">35dp</dimen>
+    <dimen name="login_btn_height">35dp</dimen>
+    <dimen name="login_password_margin_right">40dp</dimen>
+
+    <!--Brand loyalty-->
+    <dimen name="loyalty_large_row">60dp</dimen>
+
+    <!--update version-->
+    <dimen name="update_version">18sp</dimen>
+
+    <!--Dashboard and reports common-->
+    <dimen name="inside_header_height">40dp</dimen>
+    <dimen name="report_large_text">15sp</dimen>
+    <dimen name="about_us_text">14sp</dimen>
+    <dimen name="report_small_text">12sp</dimen>
+    <dimen name="dashboard_banner_height">160dp</dimen>
+    <dimen name="report_common_row_height">30dp</dimen>
+    <dimen name="dashboard_outs_row_height">45dp</dimen>
+    <dimen name="report_small_icon_width">20dp</dimen>
+    <dimen name="report_small_icon_height">20dp</dimen>
+    <dimen name="report_btn_height">40dp</dimen>
+    <dimen name="graph_small_height">200dp</dimen>
+
+    <!--Documents-->
+    <dimen name="docs_list_image_width">90dp</dimen>
+    <dimen name="docs_list_image_height">125dp</dimen>
+
+
+    <dimen name="card_text_small">11sp</dimen>
+    <dimen name="outstanding_textsize">28sp</dimen>
+    <dimen name="report_black_separator">5dp</dimen>
+
+
+</resources>

@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.Toolbar xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/toolbar"
+    android:layout_width="match_parent"
+    android:layout_height="45dp"
+    android:background="@color/colorPrimary"
+    android:theme="@style/ThemeOverlay.AppCompat.Dark">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/toolbar_tvTitle"
+            style="@style/custom_header"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:text=""
+            android:textColor="@android:color/white" />
+
+        <ImageView
+            android:id="@+id/toolbar_image"
+            android:layout_width="120dp"
+            android:layout_height="35dp"
+            android:layout_centerInParent="true"
+            android:src="@drawable/dashboard_logo" />
+
+        <RelativeLayout
+            android:id="@+id/toolbar_ivNavigation"
+            android:layout_width="45dp"
+            android:layout_height="match_parent"
+            android:layout_alignParentLeft="true"
+
+            android:background="@drawable/selector_view">
+
+            <ImageView
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:layout_centerInParent="true"
+                android:clickable="false"
+                app:srcCompat="@drawable/hamburger_icon" />
+        </RelativeLayout>
+
+
+        <LinearLayout
+            android:id="@+id/llCartDashboard"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="@dimen/dimen_8dp"
+            android:visibility="gone">
+
+            <ImageView
+                android:id="@+id/toolbar_cart"
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:layout_gravity="center_vertical"
+                android:src="@drawable/cart" />
+
+            <TextView
+                android:id="@+id/tvCartCount"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="999"
+                android:textColor="@color/colorRed" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="@dimen/dimen_8dp"
+            android:id="@+id/llWorldcupDashboard"
+            android:visibility="gone">
+
+            <ImageView
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_gravity="center"
+                android:clickable="false"
+                android:src="@drawable/worldcup_dashboard"
+                app:tint="@color/colorGraytheme" />
+
+        </LinearLayout>
+
+
+    </RelativeLayout>
+
+</androidx.appcompat.widget.Toolbar>
